@@ -19,13 +19,7 @@
 pip install -r requirements.txt
 ```
 
-### 3. Seed Sample Data
-
-```bash
-python sample_seed.py
-```
-
-### 4. Run the Application
+### 3. Run the Application
 
 ```bash
 uvicorn app.main:app --port 8000 --reload
